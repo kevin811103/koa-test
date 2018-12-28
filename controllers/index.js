@@ -1,7 +1,8 @@
 
 const mysql = require('mysql')
 const config = require('../config/config')
-
+// const userInfoService = require('./../services/user-info')
+const homeService = require('./../services/home')
 module.exports = async (ctx) => {
 
 
@@ -45,7 +46,7 @@ module.exports = async (ctx) => {
         console.log("1234")
     }
 
-    const title = 'home'
+
     let bodys = '11111'
 
     await findHez1()
